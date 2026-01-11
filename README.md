@@ -57,7 +57,7 @@ Phone number input
 OTP verification
 Firebase credential validation
 
-## ⚠️ Bonus Features Not Fully Implemented
+### ⚠️ Bonus Features Not Fully Implemented
 ### 🔹 Google Sign-In (Design Explanation)
 Google Sign-In can be integrated using Firebase Authentication with GoogleAuthProvider.
 -The app would request a Google ID token via Google Sign-In SDK and authenticate the user seamlessly without password entry.
