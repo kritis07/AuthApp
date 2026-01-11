@@ -46,10 +46,10 @@ AuthApp is an Android application built using **Kotlin** and **Firebase Authenti
 
 ---
 
-### 🌟 Bonus / Advanced Features
+## 🌟 Bonus / Advanced Features
 ### ✅ Implemented Bonus Features
 
-##  🔸 OTP-Based Login (Phone Authentication)
+###  🔸 OTP-Based Login (Phone Authentication)
 -OTP login screen implemented.
 -Firebase Phone Authentication logic integrated.
 -Flow includes:
@@ -57,19 +57,19 @@ Phone number input
 OTP verification
 Firebase credential validation
 
-### ⚠️ Bonus Features Not Fully Implemented
-## 🔹 Google Sign-In (Design Explanation)
+## ⚠️ Bonus Features Not Fully Implemented
+### 🔹 Google Sign-In (Design Explanation)
 Google Sign-In can be integrated using Firebase Authentication with GoogleAuthProvider.
 -The app would request a Google ID token via Google Sign-In SDK and authenticate the user seamlessly without password entry.
 
-## 🔹 Token-Based Session Handling (Design Explanation)
+### 🔹 Token-Based Session Handling (Design Explanation)
 -Firebase Authentication internally manages secure ID tokens and refresh tokens to maintain authenticated user sessions without manual token handling.
 
-## 🔹 Preventing Multiple Active Sessions (Design Explanation)
+### 🔹 Preventing Multiple Active Sessions (Design Explanation)
 -To prevent multiple active sessions, a backend database such as Firestore can store session identifiers or timestamps per user.
 -On each new login, older sessions can be invalidated to ensure only one active session per user.
 
-## 🔹 OTP Feature Limitation (Important Note)
+### 🔹 OTP Feature Limitation (Important Note)
 -Real OTP SMS delivery requires:
 -App verification via SHA-1 fingerprint
 -Physical device testing
